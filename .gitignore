@@ -1,30 +1,29 @@
-# Miscellaneous
-.DS_Store
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-*.swp
-*.swo
-*.log
+# Flutter/Dart/Pub files
+*.pubspec.lock
 
-# Flutter
-build/
-.packages
-.pub-cache/
-.pub/
+# Web related
+lib/generated_plugin_registrant.dart
 
-# IDE
-.idea/
-.vscode/
-*.iml
+# Symbolication related
+app.*.symbols
 
-# Generated files
-*.iml
-.gradle
-.gradle/
-local.properties
+# Obfuscation related
+app.*.map.json
 
-# Generated files
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
+# Android Studio will place build artifacts here
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS/macOS
+ios/
+macos/
+windows/
+linux/
+web/
+
+# Coverage
+coverage/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
