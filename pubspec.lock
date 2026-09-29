@@ -1,0 +1,12 @@
+{
+  "version": "3.0.0+1",
+  "project_name": "employee_attendance",
+  "description": "Employee Attendance Tracking App",
+  "features": [
+    "Multiple check-in/check-out per day",
+    "Local SQLite database",
+    "Arabic RTL support",
+    "Attendance statistics",
+    "Employee management"
+  ]
+}

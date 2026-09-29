@@ -1,20 +1,30 @@
 # Miscellaneous
-
 .DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
 *.swp
 *.swo
 *.log
 
 # Flutter
-.dart_tool/
+build/
 .packages
 .pub-cache/
 .pub/
-build/
 
 # IDE
 .idea/
 .vscode/
+*.iml
 
 # Generated files
 *.iml
+.gradle
+.gradle/
+local.properties
+
+# Generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
