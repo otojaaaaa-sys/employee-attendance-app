@@ -22,7 +22,7 @@ class EmployeeAvatar extends StatelessWidget {
         style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
-          fontSize: radius,
+          fontSize: radius * 0.6,
         ),
       ),
     );
